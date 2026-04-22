@@ -1,15 +1,192 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Trip Cee</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trip Cee | Desi Hip-Hop Artist</title>
+  <meta
+    name="description"
+    content="Trip Cee official website. Music, visuals, Instagram, and latest releases."
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <h1>Trip Cee 🎤</h1>
-  <p>Desi Hip-Hop Artist</p>
+  <header class="site-header">
+    <div class="logo">cheerkat</div>
+    <nav class="nav">
+      <a href="#music">Music</a>
+      <a href="#about">About</a>
+      <a href="#visuals">Visuals</a>
+      <a href="#connect">Connect</a>
+    </nav>
+  </header>
 
-  <button onclick="playMusic()">Play</button>
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">DESI HIP-HOP • VANCOUVER</p>
+        <h1>Raw stories.<br />Sharp visuals.<br />Real energy.</h1>
+        <p class="hero-text">
+          Welcome to the official cheerkat artist page. Stream the latest drop,
+          watch visuals, and tap in with the movement.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#music">Listen Now</a>
+          <a class="btn btn-secondary" href="#connect">Follow on Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="music" class="section">
+      <div class="section-heading">
+        <p class="section-label">LATEST RELEASE</p>
+        <h2>Music Player</h2>
+      </div>
+
+      <div class="music-card">
+        <div class="cover-art">
+          <img
+            src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80"
+            alt="Album art placeholder"
+          />
+        </div>
+
+        <div class="music-info">
+          <p class="track-tag">OUT NOW</p>
+          <h3>Do Dhai</h3>
+          <p class="track-copy">
+            Add your actual song file or replace this with Spotify, Apple Music,
+            or YouTube embed code later.
+          </p>
+
+          <audio controls class="audio-player">
+            <source src="song.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+
+          <div class="stream-links">
+            <a href="#" target="_blank">Spotify</a>
+            <a href="#" target="_blank">Apple Music</a>
+            <a href="#" target="_blank">YouTube</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-dark">
+      <div class="section-heading">
+        <p class="section-label">ARTIST PROFILE</p>
+        <h2>About</h2>
+      </div>
+
+      <div class="about-grid">
+        <div>
+          <p>
+            Trip Cee blends self-expression, hunger, and lived experience into a
+            sound rooted in Desi hip-hop and modern visual culture.
+          </p>
+          <p>
+            This website is your central hub for new drops, visuals, artist
+            updates, and direct connection with the audience.
+          </p>
+        </div>
+        <div class="stats-box">
+          <div class="stat">
+            <span class="stat-number">01</span>
+            <span class="stat-label">Latest release section</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">02</span>
+            <span class="stat-label">Visual content funnel</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">03</span>
+            <span class="stat-label">Instagram growth CTA</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="visuals" class="section">
+      <div class="section-heading">
+        <p class="section-label">CONTENT</p>
+        <h2>Photos + Reels Layout</h2>
+      </div>
+
+      <div class="visual-grid">
+        <article class="visual-card tall">
+          <img
+            src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80"
+            alt="Performance visual"
+          />
+          <div class="visual-info">
+            <h3>Live Energy</h3>
+            <p>Use this area for show footage, crowd moments, or performance stills.</p>
+          </div>
+        </article>
+
+        <article class="visual-card">
+          <img
+            src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80"
+            alt="Studio visual"
+          />
+          <div class="visual-info">
+            <h3>Studio Reels</h3>
+            <p>Add writing sessions, mic takes, or behind-the-scenes clips.</p>
+          </div>
+        </article>
+
+        <article class="visual-card">
+          <img
+            src="https://images.unsplash.com/photo-1499364615650-ec38552f4f34?auto=format&fit=crop&w=900&q=80"
+            alt="Portrait visual"
+          />
+          <div class="visual-info">
+            <h3>Portrait Visuals</h3>
+            <p>Use clean artist shots, cover art posts, and teaser campaign images.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="connect" class="section section-accent">
+      <div class="section-heading">
+        <p class="section-label">FOLLOWER FUNNEL</p>
+        <h2>Connect With The Brand</h2>
+      </div>
+
+      <div class="funnel-grid">
+        <div class="funnel-box">
+          <h3>1. Discover</h3>
+          <p>Visitors land here from reels, stories, QR codes, and bio links.</p>
+        </div>
+        <div class="funnel-box">
+          <h3>2. Listen</h3>
+          <p>They play the track and check your visual identity in one place.</p>
+        </div>
+        <div class="funnel-box">
+          <h3>3. Follow</h3>
+          <p>Push them toward Instagram, YouTube, and future drops.</p>
+        </div>
+      </div>
+
+      <div class="instagram-box">
+        <h3>Instagram CTA</h3>
+        <p>
+          Replace the link below with your real Instagram profile link so people
+          can tap directly from the website.
+        </p>
+        <a class="btn btn-primary" href="https://instagram.com/" target="_blank">
+          Follow on Instagram @cheer.kat
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Trip Cee. All rights reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
